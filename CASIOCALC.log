@@ -1,0 +1,18 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F452 -DL -O11111114 -fo8 -N"E:\Faculty Material\Embedded Systems\Labs\InterfacingCode\CASIO\CASIOCALC.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"E:\Faculty Material\Embedded Systems\Labs\InterfacingCode\CASIO\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "CASIOCALCULATOR.c" "keypad.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	std_types.h
+warning: 22	1506	Implicit conversion of pointer to int	CASIOCALCULATOR.c
+warning: 22	1506	Implicit conversion of pointer to int	CASIOCALCULATOR.c
+diagnostics: 95	123	Compiled Successfully	CASIOCALCULATOR.c
+hint: 25	1164	Variable 'res' has been eliminated by optimizer	CASIOCALCULATOR.c
+hint: 25	1164	Variable 'op' has been eliminated by optimizer	CASIOCALCULATOR.c
+hint: 79	1164	Variable 'rem' has been eliminated by optimizer	CASIOCALCULATOR.c
+diagnostics: 0	122	Compilation Started	std_types.h
+diagnostics: 50	123	Compiled Successfully	keypad.c
+diagnostics: 0	127	All files Compiled in 203 ms	 
+hint: 0	1144	Used RAM (bytes): 150 (10%)  Free RAM (bytes): 1365 (90%)	Used RAM (bytes): 150 (10%)  Free RAM (bytes): 1365 (90%)
+hint: 0	1144	Used ROM (bytes): 9082 (28%)  Free ROM (bytes): 23686 (72%)	Used ROM (bytes): 9082 (28%)  Free ROM (bytes): 23686 (72%)
+diagnostics: 0	125	Project Linked Successfully	CASIOCALC.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'CASIOCALC.mcppi' completed: 235 ms	 
+diagnostics: 0	103	Finished successfully: 15 May 2023, 19:00:37	CASIOCALC.mcppi
